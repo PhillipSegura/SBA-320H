@@ -151,8 +151,8 @@ const TriviaGame = () => {
                       ? "lightgreen"
                       : answer === selectedAnswer
                       ? "lightcoral"
-                      : "white"
-                    : "white",
+                      : "black"
+                    : "black",
                   margin: "5px",
                   padding: "10px",
                   cursor: showResult ? "default" : "pointer",
